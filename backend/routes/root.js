@@ -3,7 +3,7 @@ const express = require('express');
 const router = express.Router();
 
 router.get('/', (_req, res) => {
-    res.send('Hello World Test!');
+    res.send('This is my root route!');
 });
 
 exports.router = router;
